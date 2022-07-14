@@ -1,6 +1,6 @@
-# Desafios-CoderHouse-Js
+# Mundo Cracking - App Para descargar Juegos
 
-<img align="right" alt="Coderhouse" height="200" width="400" src="https://concentrika.ucentral.edu.co/wp-content/uploads/2021/11/coderhouse-logo.png">
+<img align="right" alt="Coderhouse" height="200" width="400" src="https://www.somosxbox.com/wp-content/uploads/2020/05/XboxLobo.jpg">
 
 ### `Desafio #1`
 Tomando como base los ejemplos anteriores de la estructura: \

@@ -11,4 +11,6 @@ Proximamente mas juegos...
 
 # [Probar App](https://mcangen.github.io/Mundo-Cracking/)
 
+<div align="center">
 <img align="center" alt="Coderhouse" height="200" width="600" src="https://cdn.worldvectorlogo.com/logos/ps5-2.svg">
+</div>

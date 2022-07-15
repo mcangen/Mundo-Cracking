@@ -1,55 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap");
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     /* font-family: 'Bebas Neue', cursive; */
 }
 
-body{
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,194,255,1) 100%);
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(0, 194, 255, 1) 100%);
     /* padding-top:5px; */
 }
 
 * {
     scrollbar-width: auto;
     scrollbar-color: #ffffff #00cbeb;
-  }
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
     width: 15px;
     display: none;
-  }
+}
 
-  *::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: #00cbeb;
-  }
+}
 
-  *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #ffffff;
     border-radius: 18px;
     border: -9px solid #ffffff;
-  }
-  
- /*fuente de odibee font-family: 'Odibee Sans', cursive;
+}
+
+/*fuente de odibee font-family: 'Odibee Sans', cursive;
   fuente bebas font-family: 'Bebas Neue', cursive;
    fuente kulen font-family: 'Koulen', cursive;
    fuente extraligth font-family: 'Source Sans Pro', sans-serif; */
-   
 
-.titulo{
-    background: linear-gradient(180deg, rgba(0, 255, 251, 0.61rgba(210, 98, 195, 0.555)195,1) 100%);
+.titulo {
+    background: linear-gradient(180deg,
+            rgba(0, 255, 251, 0.61rgba (210, 98, 195, 0.555) 195, 1) 100%);
     margin: 0 0 25px;
     border-radius: 0 0 20px 20px;
     /* text-align: center; */
-    font-family: 'Koulen', cursive;
+    font-family: "Koulen", cursive;
     color: rgb(0, 0, 0);
     width: 100%;
     height: 70px;
@@ -59,13 +62,13 @@ body{
     backdrop-filter: blur(2px);
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
     gap: 9px;
 }
 
-.logo-input{
+.logo-input {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
@@ -73,7 +76,8 @@ body{
     height: 100%;
     color: #fff;
 }
-.titulo .logo-input input{
+
+.titulo .logo-input input {
     border: none;
     outline: none;
     margin-right: 20px;
@@ -81,72 +85,263 @@ body{
     height: 20px;
     padding-left: 5px;
 }
-.titulo .logo-input h1{
-    color: #Fff;
+
+.titulo .logo-input h1 {
+    color: #fff;
 }
 
-.carousel{
+.carousel {
     height: calc(100vh);
     width: 100%;
 }
 
-.carousel-item{
+.carousel-item {
     height: calc(100vh) !important;
 }
 
-.img-card{
+.img-card {
     object-fit: cover !important;
     width: 100% !important;
-    height:100% !important;
-    transform: scale(.9);
-    transition: transform 1s ,filter 1s;
+    height: 100% !important;
+    transform: scale(0.9);
+    transition: transform 1s, filter 1s;
 }
 
-.img-card:hover{
+.img-card:hover {
     transform: scale(1);
     filter: brightness(1.2);
 }
 
-
-
-.introduccion{
+.introduccion {
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgba(224, 227, 230, 0);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 24px;
     margin: auto 23px;
-    padding:5px;
-    
+    padding: 5px;
 }
+
 .parent {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-    grid-template-rows: repeat(auto-fill, minmax(170px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(170px, 1fr));
     grid-auto-flow: dense;
-    grid-gap:10px
-    }
+    grid-gap: 10px
+}
 
-a{
+a {
     text-decoration: none;
-    color: #ffffff !important ;
-}            
+    color: #ffffff !important;
+}
 
 
 
+.cuphead {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.geometry {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.halo2 {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.seconds60 {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.human {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.maincra {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.plague {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.happywells {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.broforce {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.bendy {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 21px;
+    padding: 5px;
+}
+
+.fnaf1 {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.fnaf2 {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.fnaf3 {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.fnaf4 {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    padding: 5px;
+}
+
+.sister {
+    background: linear-gradient(180deg,
+            rgba(210, 98, 195, 1) 0%,
+            rgba(0, 255, 252, 1) 100%);
+    margin: 25px 23px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    padding: 5px;
+}
 
 /*footer*/
 
-.pie{
+.pie {
     color: aliceblue;
     margin: 20px 25px;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     margin-bottom: 20px;
     border-radius: 10px;
     background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(72, 128, 127) 100%);
     font-size: 30px;
     padding: 5px;
-
 }
-

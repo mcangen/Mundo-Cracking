@@ -1,3 +1,63 @@
+
+/* nueva card */
+.cards{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    min-height: 400px;
+}
+.cards img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 15px;
+}
+.cards .overlay{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    z-index: 200;
+    border-radius: 15px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.432), transparent);
+}
+.cards.overlay h2{
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize !important;
+    font-family: 'Poppins';
+}
+.cards .overlay div{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    backdrop-filter: blur(3px);
+    background: #9191918a;
+    border-radius: 15px;
+}
+.cards .overlay div a{
+    padding: 7px 10px;
+    background: rgb(17, 17, 17);
+    border-radius: 15px;
+}
+.cards .overlay div p{
+    padding: 7px 10px;
+    background: rgb(17, 17, 17);
+    border-radius: 15px;
+    margin-bottom: 0%;
+}
+/* end nueva card */
+
 .cuphead{
     background: linear-gradient(180deg, rgba(210,98,195,1) 0%, rgba(0,255,252,1) 100%);
     margin: 25px 23px;
@@ -9,6 +69,7 @@
     padding: 5px;
 
 }
+
 .geometry{
     background: linear-gradient(180deg, rgba(210,98,195,1) 0%, rgba(0,255,252,1) 100%);
     margin: 25px 23px;
@@ -20,56 +81,6 @@
     padding: 5px;
     
 }
-/* nueva card */
-.geometry2{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-}
-.geometry2 img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    border-radius: 15px;
-}
-.geometry2 .overlay{
-    height: 100%;
-    width: 100%;
-    color: #fff;
-    position: absolute;
-    z-index: 200;
-    border-radius: 15px;
-    text-align: center;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.432), transparent);
-}
-.geometry2 .overlay h2{
-    margin-top: 15px;
-    color: #fff;
-    font-weight: 600;
-    font-size: 25px;
-    text-transform: capitalize !important;
-    font-family: 'Poppins';
-}
-.geometry2 .overlay div{
-    position: absolute;
-    bottom: 0px;
-    display: flex;
-    width: 100%;
-    height: 20%;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
-    backdrop-filter: blur(3px);
-    background: #9191918a;
-}
-.geometry2 .overlay div a{
-    padding: 7px 10px;
-    background: rgb(17, 17, 17);
-    border-radius: 15px;
-}
-/* end nueva card */
 .halo2{
     background: linear-gradient(180deg, rgba(210,98,195,1) 0%, rgba(0,255,252,1) 100%);
     margin: 25px 23px;

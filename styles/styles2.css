@@ -57,3 +57,11 @@
     margin-bottom: 0%;
 }
 /* end nueva card */
+.directions{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(48, 47, 47);
+    border-radius: 15px 15px;
+    padding: 8px 7px;
+    font-size: 20px;
+}
